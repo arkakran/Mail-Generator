@@ -2,10 +2,10 @@ import streamlit as st
 import os
 import requests
 from datetime import datetime
-from dotenv import load_dotenv
+# from dotenv import load_dotenv
 
-# Load environment variables
-load_dotenv()
+# # Load environment variables
+# load_dotenv()
 GROQ_API_KEY = os.getenv("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")
 
 # Set up Streamlit app
