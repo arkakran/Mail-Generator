@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 
 # Load environment variables
 load_dotenv()
-GROQ_API_KEY = os.getenv("GROQ_API_KEY")
+GROQ_API_KEY = os.getenv("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")
 
 # Set up Streamlit app
 st.set_page_config(page_title="Student Email Assistant", page_icon="✉️", layout="wide")
